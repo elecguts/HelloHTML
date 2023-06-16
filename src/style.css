@@ -7,4 +7,40 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background: rgb(225, 225, 178);
+  font-family: 'Raleway', sans-serif;
+}
+p {
+  margin: 1.5em;
+  background-color: white;
+  width: fit-content;
+  padding: 2px;
+  border-radius: 5px;
+}
+h1 {
+  margin: 3rem;
+  font-family: 'Bungee Shade', cursive;
+  color: azure;
+  background-color: rgb(74, 17, 80);
+  padding: 5px;
+  border-radius: 5px;
+  width: 50%;
+  box-shadow: 10px 5px 5px grey;
+}
+h2 {
+  margin: 1em;
+}
+img {
+  margin: 0.5em 2em;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px grey;
+}
+li {
+  list-style: none;
+}
+a {
+  transition: background-color 0.5s;
+}
+a:hover {
+  background-color: gold;
 }
